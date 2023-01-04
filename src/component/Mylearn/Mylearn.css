@@ -1,0 +1,80 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+
+.myheader  {
+  text-align: left;
+  padding: 32px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px 4px;
+  grid-gap: 20px;
+}
+.myheader h1 {
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+
+}
+/* Create two equal columns that sits next to each other */
+.column {
+   margin-left: 40px;
+  flex: 50%;
+  /* padding: 10px 10px; */
+}
+.column img:hover{
+  box-shadow: 2px 2px 2px 2px
+  #888888;
+  background-color:white;
+  color: lightgreen;
+
+}
+.row .column img{
+  cursor: pointer;
+ 
+  align-items: center;
+}
+
+
+.column img {
+
+  cursor: pointer;
+  width: auto;
+  margin: 0px 20px 30px 20px;
+  /* margin-top: 8px; */
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.btno {
+  
+  border: 1px ridge;
+  outline: none;
+  margin: 0px 10px 30px 150px;
+  padding: 4px 15px;
+  background-color:white;
+  cursor: pointer;
+  text-decoration-color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  border-color: grey;
+}
+
+.btno:hover {
+  box-shadow: 2px 2px 2px 2px
+  #888888;
+  background-color:white;
+  color: lightgreen;
+}
+
+.btno.active {
+  background-color:white;
+  color:lightgreen;
+}

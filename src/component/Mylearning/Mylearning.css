@@ -1,0 +1,47 @@
+.card {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  
+  .card  {
+
+      block-size: auto;
+    border: none;
+    outline: 0;
+    border-radius:10px;
+   text-align: center;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  .tu{
+  text-align:center;
+  }
+ .btu{
+      letter-spacing: 0.5px;
+      font-size: 1rem;
+      margin: 1.5rem;
+      padding: 10px ;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      background: linear-gradient(to right, #15c494,#15c494);
+  }
+  
+  .card .btu:hover {
+    opacity: 1.7;
+  }
+  img{
+    width:100%;
+  }
+ .mjh{
+    font-size: 2.5em;
+    margin-top:100px;
+    text-align:center;
+    padding: 15px;
+  }

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500&display=swap");
+
+.signin-form{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  box-shadow: 4px 4px 4px 4px grey;
+  min-width: 360px;
+  height: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -120px;
+
+}
+.qsd{ margin-right: 4%;
+  font-size: -3rem;
+  text-align: center;
+  color:black;
+
+}
+
+.qsd h4 {
+  margin-right: 4%;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+  .profile {
+    width: 40%;
+    border-radius: 14%;
+  }
+  .gyh{
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 36px 10px ;
+    min-height: 40vh;
+  }
+  .gyh h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3em;
+    color: black;
+    margin: 0px;
+  }
+  label {
+    color: black;
+    text-align: left;
+  }
+  h4{
+    margin-right: 80%;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+ 
+  i{
+    color: black;
+    padding-right: 6px;
+    
+  }
+  
+  input {
+    text-align: center;
+    margin: 8px 0;
+    width: 100%;
+    padding: 12px 0;
+    padding-left: 9px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 2px 2px 2px grey;
+    background-color: rgb(99, 74, 74,0.1);
+  }
+  h5{
+    margin:7px;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  .btl {
+    background-color: rgb(73, 214, 73, 0.8);
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 4px 4px 0px grey;
+  }

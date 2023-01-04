@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500&display=swap");
+/* * {
+  
+  margin: 0;
+} */
+.op{
+  margin: 0%;
+}
+
+.SignUp {
+  padding: 0;
+    margin: 0;
+}
+.SignUp {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins, san-serif;
+  }
+  .form-group{
+    padding: 0%;
+  }
+.signup-form{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  box-shadow: 4px 4px 4px 4px grey;
+  min-width: 160px;
+  height: 40%;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+
+}
+  .profile {
+    width:30%;
+    border-radius: 30%;
+  }
+  .mk{
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  label {
+    color: black;
+    text-align: left;
+  }
+  /* h4{
+    margin-right: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  } */
+  
+ 
+  i{
+    color: black;
+    padding-right: 6px;
+    
+  }
+  .name .email .password{
+   
+        margin: 10px 0;
+        width: 85%;
+        padding: 12px 0;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #D3D3D3;
+        box-shadow: 4px 2px 2px 2px grey;
+  }
+  
+  .form-submit{
+    margin: 10px 0;
+    width: 90%;
+    padding: 12px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 2px 2px 2px grey;
+    background-color: rgb(80, 221, 80);
+  }
+
+  .jk{
+    margin:7px;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  .ni{
+    margin-right: 80%;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+ span{
+    color: rgb(80, 221, 80);
+ }
